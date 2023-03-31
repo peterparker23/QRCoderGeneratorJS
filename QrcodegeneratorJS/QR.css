@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+#input {
+  width: 500px;
+  height: 30px;
+  resize: none;
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  color: white;
+  background-color: #18c818;
+}
+button:hover {
+  background: rgba(88, 104, 191, 0.5);
+}
+#qr-code {
+  margin-top: 20px;
+}
